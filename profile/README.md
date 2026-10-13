@@ -12,7 +12,7 @@
 <br/>
 
 <a href="https://micro-ki.de">
-  <img src="https://micro-ki.de/logos/micro-ki-og-1200x630.png" alt="Micro KI+ Banner" width="800">
+  <img src="https://micro-ki.de/logos/micro-ki-og-showcase-1200x630.jpg" alt="Micro KI+ Banner" width="800">
 </a>
 
 <br/><br/>
