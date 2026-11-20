@@ -4,26 +4,27 @@
   <img src="https://raw.githubusercontent.com/Micro-KI/.github/main/profile/assets/hero-terminal.svg" alt="Micro KI+ — Spezialisierte KI-Werkzeuge mit deterministischer Logik vor generativer KI" width="100%">
 </a>
 
-<br/>
-
-[![Plattform-Hub](https://img.shields.io/badge/HUB-micro--ki.de-ffffff?style=for-the-badge&labelColor=08090a)](https://micro-ki.de)
-[![Parser API KI+](https://img.shields.io/badge/API-parser--api.micro--ki.de-00e8ff?style=for-the-badge&labelColor=08090a)](https://parser-api.micro-ki.de)
-[![Bewerber Tool KI+](https://img.shields.io/badge/APP-bewerber--tool.micro--ki.de-ffbf00?style=for-the-badge&labelColor=08090a)](https://bewerber-tool.micro-ki.de)
-[![Fake Checker KI+](https://img.shields.io/badge/CHECK-fake--checker.micro--ki.de-00ff41?style=for-the-badge&labelColor=08090a)](https://fake-checker.micro-ki.de)
-
-[![PHP 8.5](https://img.shields.io/badge/PHP-8.5%20strict__types-777BB4?style=flat-square&logo=php&logoColor=white)](https://micro-ki.de/wie-wir-entwickeln)
-[![Symfony 7.4](https://img.shields.io/badge/Symfony-7.4%20AssetMapper-000000?style=flat-square&logo=symfony&logoColor=white)](https://micro-ki.de/wie-wir-entwickeln)
-[![Coverage](https://img.shields.io/badge/Tests-100%25%20Coverage%20%2B%20Infection-00ff41?style=flat-square&labelColor=0b0e12)](https://micro-ki.de/wie-wir-entwickeln)
-[![Golden Master](https://img.shields.io/badge/Golden%20Master-123%20Referenz--Fixtures-00e8ff?style=flat-square&labelColor=0b0e12)](https://micro-ki.de/wie-wir-entwickeln)
-[![n8n Node](https://img.shields.io/badge/n8n-n8n--nodes--parser--api--ki-EA4B71?style=flat-square&logo=n8n&logoColor=white)](https://github.com/Micro-KI/n8n-nodes-parser-api-ki)
-[![Make App](https://img.shields.io/badge/Make-Custom%20App-6D00CC?style=flat-square)](https://github.com/Micro-KI/make-app-parser-api-ki)
-[![Hosting](https://img.shields.io/badge/Hosting-Deutschland%20(ALL--INKL)-ffffff?style=flat-square&labelColor=0b0e12)](https://micro-ki.de/datenschutz)
+<p align="center">
+  <a href="https://micro-ki.de"><strong>Plattform-Hub</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://parser-api.micro-ki.de"><strong>Parser API KI+</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://bewerber-tool.micro-ki.de"><strong>Bewerber Tool KI+</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://fake-checker.micro-ki.de"><strong>Fake Checker KI+</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/Micro-KI/n8n-nodes-parser-api-ki"><strong>n8n Node</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/Micro-KI/make-app-parser-api-ki"><strong>Make App</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://micro-ki.de/wie-wir-entwickeln"><strong>Architektur &amp; Tests</strong></a>
+</p>
 
 </div>
 
 ---
 
-## ⚡ Was ist Micro KI+?
+## Was ist Micro KI+?
 
 > **KI mit klarem Auftrag statt KI, die alles verspricht.**  
 > Bei **[Micro KI+](https://micro-ki.de)** steht **Micro** für den bewusst eng gesteckten Rahmen: eine klar abgegrenzte Spezialaufgabe, ein fester Ablauf und Systemgrenzen, die man auf einen Blick versteht. **KI+** steht für unsere Architektur: **deterministische Prüfungen vor generativer KI** — was sich in Programmcode exakt berechnen, parsen oder gegen Register und Standards validieren lässt, wird niemals einem Sprachmodell zum Schätzen überlassen.
@@ -36,7 +37,7 @@
 
 ---
 
-## 🟦 01 // Parser API KI+ — Dokumenten-Extraction mit festem JSON-Vertrag
+## 01 // Parser API KI+ — Dokumenten-Extraction mit festem JSON-Vertrag
 
 <a href="https://parser-api.micro-ki.de">
   <img src="https://raw.githubusercontent.com/Micro-KI/.github/main/profile/assets/card-parser-api.svg" alt="Parser API KI+ — REST-API für Rechnungen, Gutschriften, Lieferscheine, Bestellungen, Kontoauszüge und Lebensläufe" width="100%">
@@ -87,7 +88,7 @@ Jeder Dokumenttyp besitzt einen eigenen Endpunkt, damit z. B. eine eingegangene 
 
 ---
 
-## 🟨 02 // Bewerber Tool KI+ — Maßgeschneiderte Bewerbung mit Faktenprüfung
+## 02 // Bewerber Tool KI+ — Maßgeschneiderte Bewerbung mit Faktenprüfung
 
 <a href="https://bewerber-tool.micro-ki.de">
   <img src="https://raw.githubusercontent.com/Micro-KI/.github/main/profile/assets/card-bewerber-tool.svg" alt="Bewerber Tool KI+ — Anschreiben, Lebenslauf und Begleitmail in 4 Schritten erstellen" width="100%">
@@ -115,7 +116,7 @@ Das **[Bewerber Tool KI+](https://bewerber-tool.micro-ki.de)** erstellt aus eine
 
 ---
 
-## 🟩 03 // Fake Checker KI+ — Echtzeit-Schutz vor Fake-Shops, Phishing & Betrug
+## 03 // Fake Checker KI+ — Echtzeit-Schutz vor Fake-Shops, Phishing & Betrug
 
 <a href="https://fake-checker.micro-ki.de">
   <img src="https://raw.githubusercontent.com/Micro-KI/.github/main/profile/assets/card-fake-checker.svg" alt="Fake Checker KI+ — Online-Shops, Links, E-Mails, SMS und Telefonnummern kostenlos prüfen" width="100%">
