@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="100%" height="100%" role="img" aria-label="Micro KI+ Phosphor CRT Terminal Hub">
+  <defs>
+    <pattern id="scanlines" width="1200" height="4" patternUnits="userSpaceOnUse">
+      <rect width="1200" height="2" fill="#000000" fill-opacity="0.28"/>
+    </pattern>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.04"/>
+    </pattern>
+    <filter id="glow-white" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-cyan" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .mono { font-family: 'VT323', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+      .cursor { animation: blink 1.1s step-end infinite; }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <!-- Outer CRT Bezel -->
+  <rect width="1200" height="440" rx="10" fill="#050505" stroke="#333333" stroke-width="2"/>
+  <rect x="6" y="6" width="1188" height="428" rx="7" fill="#070809" stroke="#ffffff" stroke-opacity="0.28" stroke-width="1.5"/>
+  <rect x="6" y="6" width="1188" height="428" rx="7" fill="url(#grid)"/>
+
+  <!-- Terminal Header Bar -->
+  <rect x="6" y="6" width="1188" height="34" rx="6" fill="#111315"/>
+  <line x1="6" y1="40" x2="1194" y2="40" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1"/>
+  <circle cx="26" cy="23" r="5.5" fill="#00e8ff"/>
+  <circle cx="44" cy="23" r="5.5" fill="#ffbf00"/>
+  <circle cx="62" cy="23" r="5.5" fill="#00ff41"/>
+  <text x="84" y="28" class="mono" font-size="14" fill="#d8d8d8" letter-spacing="1.5">MICRO-KI+ // TERMINAL HUB v2.6 — MAINZ, GERMANY [HOSTING: DE / ALL-INKL]</text>
+  <text x="1174" y="28" class="mono" font-size="13" fill="#00ff41" text-anchor="end" letter-spacing="1">● ALL SYSTEMS ONLINE</text>
+
+  <!-- Left Column: Brand & Architecture -->
+  <g transform="translate(28, 66)">
+    <text x="0" y="16" class="mono" font-size="13" fill="#888888" letter-spacing="2">root@micro-ki:~$ cat /etc/micro-ki/mission.txt</text>
+    <text x="0" y="64" class="mono" font-size="48" font-weight="bold" fill="#ffffff" filter="url(#glow-white)" letter-spacing="3">MICRO KI+</text>
+    <rect x="278" y="32" width="142" height="26" rx="3" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="349" y="50" class="mono" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1.2">micro-ki.de</text>
+
+    <text x="0" y="94" class="mono" font-size="17" font-weight="bold" fill="#e6e6e6" letter-spacing="0.8">Spezialisierte KI-Werkzeuge mit klarem Auftrag</text>
+    <text x="0" y="118" class="mono" font-size="13.5" fill="#b0b0b0">Eine Spezialaufgabe. Ein fester Ablauf. Deterministische Prüfungen</text>
+    <text x="0" y="138" class="mono" font-size="13.5" fill="#b0b0b0">vor generativer KI — ohne Abofallen, ohne Account-Zwang, ohne Tracker.</text>
+
+    <!-- Architecture Flow Box -->
+    <rect x="0" y="156" width="536" height="86" rx="5" fill="#0b0d10" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1"/>
+    <text x="14" y="176" class="mono" font-size="12" font-weight="bold" fill="#00e8ff" letter-spacing="1.2">ARCHITEKTUR-PRINZIP: DETERMINISTIK VOR SPRACHMODELL</text>
+
+    <rect x="14" y="188" width="96" height="40" rx="3" fill="#14181d" stroke="#ffffff" stroke-opacity="0.3"/>
+    <text x="62" y="206" class="mono" font-size="11.5" font-weight="bold" fill="#ffffff" text-anchor="middle">1. INPUT</text>
+    <text x="62" y="221" class="mono" font-size="10" fill="#999999" text-anchor="middle">Datei / URL / Text</text>
+
+    <text x="121" y="213" class="mono" font-size="14" fill="#00e8ff" text-anchor="middle">►</text>
+
+    <rect x="132" y="188" width="150" height="40" rx="3" fill="#041c24" stroke="#00e8ff" stroke-opacity="0.7"/>
+    <text x="207" y="206" class="mono" font-size="11.5" font-weight="bold" fill="#00e8ff" text-anchor="middle">2. HARTER CODE</text>
+    <text x="207" y="221" class="mono" font-size="10" fill="#9beeff" text-anchor="middle">XML/EDI/DNS/IBAN/Regeln</text>
+
+    <text x="293" y="213" class="mono" font-size="14" fill="#ffbf00" text-anchor="middle">►</text>
+
+    <rect x="304" y="188" width="106" height="40" rx="3" fill="#1f1703" stroke="#ffbf00" stroke-opacity="0.7"/>
+    <text x="357" y="206" class="mono" font-size="11.5" font-weight="bold" fill="#ffbf00" text-anchor="middle">3. KI-ANALYSE</text>
+    <text x="357" y="221" class="mono" font-size="10" fill="#ffe082" text-anchor="middle">Nur wo nötig</text>
+
+    <text x="421" y="213" class="mono" font-size="14" fill="#00ff41" text-anchor="middle">►</text>
+
+    <rect x="432" y="188" width="90" height="40" rx="3" fill="#041f0b" stroke="#00ff41" stroke-opacity="0.7"/>
+    <text x="477" y="206" class="mono" font-size="11.5" font-weight="bold" fill="#00ff41" text-anchor="middle">4. OUTPUT</text>
+    <text x="477" y="221" class="mono" font-size="10" fill="#99ffb3" text-anchor="middle">Verifiziert</text>
+
+    <!-- Bullet proofs -->
+    <text x="0" y="268" class="mono" font-size="13" fill="#00ff41">✓</text>
+    <text x="18" y="268" class="mono" font-size="13" fill="#d0d0d0">100 % Test-Coverage · PHPStan · Infection Mutation Testing · 123 Fixtures</text>
+    <text x="0" y="290" class="mono" font-size="13" fill="#00e8ff">✓</text>
+    <text x="18" y="290" class="mono" font-size="13" fill="#d0d0d0">Mistral EU (Parser API &amp; Bewerber Tool) · OpenRouter/Gemini (Fake Checker)</text>
+    <text x="0" y="312" class="mono" font-size="13" fill="#ffbf00">✓</text>
+    <text x="18" y="312" class="mono" font-size="13" fill="#d0d0d0">Offizielle Open-Source-Integrationen für n8n (Community Node) &amp; Make</text>
+  </g>
+
+  <!-- Vertical Divider -->
+  <line x1="588" y1="54" x2="588" y2="386" stroke="#ffffff" stroke-opacity="0.15" stroke-dasharray="4 4"/>
+
+  <!-- Right Column: 3 Product Modules -->
+  <g transform="translate(612, 58)">
+    <text x="0" y="16" class="mono" font-size="13" fill="#888888" letter-spacing="1.5">LIVE-PRODUKTE &amp; SUBDOMAINS // DIREKTSTART</text>
+
+    <!-- Card 1: Parser API KI+ (Cyan #00e8ff) -->
+    <rect x="0" y="28" width="556" height="92" rx="5" fill="#041317" stroke="#00e8ff" stroke-opacity="0.75" stroke-width="1.5"/>
+    <rect x="0" y="28" width="6" height="92" rx="2" fill="#00e8ff"/>
+    <text x="20" y="52" class="mono" font-size="18" font-weight="bold" fill="#00e8ff" filter="url(#glow-cyan)" letter-spacing="1">PARSER API KI+</text>
+    <rect x="195" y="36" width="196" height="20" rx="3" fill="#00e8ff" fill-opacity="0.14" stroke="#00e8ff" stroke-opacity="0.5"/>
+    <text x="293" y="50" class="mono" font-size="11.5" font-weight="bold" fill="#00e8ff" text-anchor="middle">parser-api.micro-ki.de</text>
+    <text x="540" y="50" class="mono" font-size="11.5" font-weight="bold" fill="#00e8ff" text-anchor="end">[LIVE · B2B REST-API]</text>
+    <text x="20" y="74" class="mono" font-size="12.5" fill="#e0faff">6 feste JSON-Schemas: invoice.v1 · creditnote.v1 · deliverynote.v1 ·</text>
+    <text x="20" y="92" class="mono" font-size="12.5" fill="#e0faff">purchaseorder.v1 · bankstatement.v1 · cv.v1 | XRechnung, ZUGFeRD, camt,</text>
+    <text x="20" y="110" class="mono" font-size="12" fill="#8cdce6">MT940 deterministisch (&lt; 2s) + PDF-OCR über Mistral EU · Prepaid ab 4,90 €</text>
+
+    <!-- Card 2: Bewerber Tool KI+ (Amber #ffbf00) -->
+    <rect x="0" y="132" width="556" height="92" rx="5" fill="#171103" stroke="#ffbf00" stroke-opacity="0.75" stroke-width="1.5"/>
+    <rect x="0" y="132" width="6" height="92" rx="2" fill="#ffbf00"/>
+    <text x="20" y="156" class="mono" font-size="18" font-weight="bold" fill="#ffbf00" letter-spacing="1">BEWERBER TOOL KI+</text>
+    <rect x="218" y="140" width="214" height="20" rx="3" fill="#ffbf00" fill-opacity="0.14" stroke="#ffbf00" stroke-opacity="0.5"/>
+    <text x="325" y="154" class="mono" font-size="11.5" font-weight="bold" fill="#ffbf00" text-anchor="middle">bewerber-tool.micro-ki.de</text>
+    <text x="540" y="154" class="mono" font-size="11.5" font-weight="bold" fill="#ffbf00" text-anchor="end">[LIVE · 4-SCHRITTE-APP]</text>
+    <text x="20" y="178" class="mono" font-size="12.5" fill="#fff3d1">Anschreiben, zugeschnittener Lebenslauf &amp; Begleitmail aus Profil + Anzeige.</text>
+    <text x="20" y="196" class="mono" font-size="12.5" fill="#fff3d1">Manuelle Freigabe &amp; feste Faktenregeln neben Mistral EU (kein Erfinden!).</text>
+    <text x="20" y="214" class="mono" font-size="12" fill="#e6c365">Lesen &amp; Kopieren kostenlos (0 €) · Komplettpaket (PDF/DOCX/ZIP) 2,99 € · 16 Ratgeber</text>
+
+    <!-- Card 3: Fake Checker KI+ (Green #00ff41) -->
+    <rect x="0" y="236" width="556" height="92" rx="5" fill="#031708" stroke="#00ff41" stroke-opacity="0.75" stroke-width="1.5"/>
+    <rect x="0" y="236" width="6" height="92" rx="2" fill="#00ff41"/>
+    <text x="20" y="260" class="mono" font-size="18" font-weight="bold" fill="#00ff41" letter-spacing="1">FAKE CHECKER KI+</text>
+    <rect x="210" y="244" width="208" height="20" rx="3" fill="#00ff41" fill-opacity="0.14" stroke="#00ff41" stroke-opacity="0.5"/>
+    <text x="314" y="258" class="mono" font-size="11.5" font-weight="bold" fill="#00ff41" text-anchor="middle">fake-checker.micro-ki.de</text>
+    <text x="540" y="258" class="mono" font-size="11.5" font-weight="bold" fill="#00ff41" text-anchor="end">[LIVE · 100% KOSTENLOS]</text>
+    <text x="20" y="282" class="mono" font-size="12.5" fill="#d9ffe2">Erkennt Fake-Shops, Phishing-Mails, Smishing-SMS &amp; verdächtige Nummern.</text>
+    <text x="20" y="300" class="mono" font-size="12.5" fill="#d9ffe2">Echte Prüfungen (Domainalter, DNS, SSL, Handelsregister, Warnlisten) + KI.</text>
+    <text x="20" y="318" class="mono" font-size="12" fill="#7ce898">Ohne Account · Browser-Add-ons (Firefox/Chrome/Edge) · 100+ Seiten Fake-Lexikon</text>
+  </g>
+
+  <!-- Bottom Terminal Status Bar -->
+  <rect x="6" y="396" width="1188" height="38" rx="6" fill="#0e1012"/>
+  <line x1="6" y1="396" x2="1194" y2="396" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1"/>
+  <text x="24" y="420" class="mono" font-size="13.5" fill="#00ff41">root@micro-ki:~$</text>
+  <text x="152" y="420" class="mono" font-size="13.5" fill="#ffffff">curl -s https://parser-api.micro-ki.de/api/v1/account -H "Authorization: Bearer pak_test_X0001"</text>
+  <rect x="862" y="407" width="9" height="16" fill="#00e8ff" class="cursor"/>
+  <text x="1174" y="420" class="mono" font-size="13" fill="#999999" text-anchor="end">PHP 8.5 · SYMFONY 7.4 · CRT UI</text>
+
+  <!-- Scanline Overlay -->
+  <rect x="6" y="6" width="1188" height="428" rx="7" fill="url(#scanlines)" pointer-events="none"/>
+</svg>
